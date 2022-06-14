@@ -16,6 +16,10 @@ var fight = function() {
 
     // alerts players of the start of the round
   window.alert("Welcome to Robot Gladiators!");
+
+  // fight prompt
+
+  var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle Enter 'FIGHT' or 'SKIP' to choose.");
   // subtracts the value of 'playerAttack' from the value of 'enenemyHealth' and use that result to update the value in the 'enemyHealth' variable
     enemyHealth = enemyHealth - playerAttack;
   // Log a resulting message to the console so we know that it worked
